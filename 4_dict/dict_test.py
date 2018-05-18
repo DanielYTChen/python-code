@@ -1,0 +1,20 @@
+ages = {}
+ages['bob'] = 9
+ages['Wei-An'] = 87
+ages['alice'] = 18
+ages['bob'] 
+print(ages['bob'] )             # 9
+#print(ages.bob)                 # error: 'dict' object has no attribute 'bob'
+print (ages.get('bob'))          # 9
+ages['john']             # KeyError: 'john'
+ages.get('john')         # None
+ages.get('john', 'N/A')  # 'N/A' 如果找的到 回傳這個給我
+len(ages)                # 2
+list(ages)               # ['bob', 'alice'], order may differ
+'bob' in ages            # True
+'john' in ages           # False
+
+ages = { 'bob': 9, 'alice': 18 }
+ages2 = dict({'bob': 9, 'alice': 18}) # same as ages
+ages3 = dict(bob=9, alice=18)          # same as ages
+ages4 = dict([('bob', 9), (alice, 18)]) # same as ages
