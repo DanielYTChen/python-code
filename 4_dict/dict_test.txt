@@ -1,4 +1,4 @@
-ages = {}
+'''ages = {}
 ages['bob'] = 9
 ages['Wei-An'] = 87
 ages['alice'] = 18
@@ -17,4 +17,5 @@ list(ages)               # ['bob', 'alice'], order may differ
 ages = { 'bob': 9, 'alice': 18 }
 ages2 = dict({'bob': 9, 'alice': 18}) # same as ages
 ages3 = dict(bob=9, alice=18)          # same as ages
-ages4 = dict([('bob', 9), (alice, 18)]) # same as ages
+ages4 = dict([('bob', 9), (alice, 18)]) # same as ages''''
+'''
